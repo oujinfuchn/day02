@@ -1,5 +1,5 @@
 //
-//  MainViewController.swift
+//  NavigationController.swift
 //  Swift-day02
 //
 //  Created by Edison on 17/2/27.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainViewController: UITabBarController {
+class NavigationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
