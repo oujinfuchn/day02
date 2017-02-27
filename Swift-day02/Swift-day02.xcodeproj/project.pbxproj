@@ -11,7 +11,7 @@
 		B73795B01E63BC4000126ECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B73795AF1E63BC4000126ECD /* Assets.xcassets */; };
 		B73795BE1E63BC4000126ECD /* Swift_day02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73795BD1E63BC4000126ECD /* Swift_day02Tests.swift */; };
 		B73795C91E63BC4000126ECD /* Swift_day02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73795C81E63BC4000126ECD /* Swift_day02UITests.swift */; };
-		B73795F11E63DD1400126ECD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73795F01E63DD1400126ECD /* MainViewController.swift */; };
+		B737960F1E64039900126ECD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73796061E64039900126ECD /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,7 @@
 		B73795C41E63BC4000126ECD /* Swift-day02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-day02UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73795C81E63BC4000126ECD /* Swift_day02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_day02UITests.swift; sourceTree = "<group>"; };
 		B73795CA1E63BC4000126ECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B73795F01E63DD1400126ECD /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B73796061E64039900126ECD /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +93,15 @@
 		B73795A71E63BC3F00126ECD /* Swift-day02 */ = {
 			isa = PBXGroup;
 			children = (
-				B73795D61E63DC2A00126ECD /* Classes */,
+				B73796101E64039F00126ECD /* Define */,
+				B73795F21E64039900126ECD /* Model */,
+				B73795F81E64039900126ECD /* NetTool */,
+				B73795F91E64039900126ECD /* Resource */,
+				B73795FA1E64039900126ECD /* Util */,
+				B73795FB1E64039900126ECD /* Vendor */,
+				B73795FC1E64039900126ECD /* View */,
+				B73796021E64039900126ECD /* ViewController */,
+				B73796091E64039900126ECD /* ViewModel */,
 				B73795A81E63BC3F00126ECD /* AppDelegate.swift */,
 				B73795AF1E63BC4000126ECD /* Assets.xcassets */,
 				B73795B41E63BC4000126ECD /* Info.plist */,
@@ -119,212 +127,228 @@
 			path = "Swift-day02UITests";
 			sourceTree = "<group>";
 		};
-		B73795D61E63DC2A00126ECD /* Classes */ = {
+		B73795F21E64039900126ECD /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B73795D71E63DC2A00126ECD /* Model */,
-				B73795DD1E63DC2A00126ECD /* Tools */,
-				B73795DE1E63DC2A00126ECD /* View */,
-				B73795E41E63DC2A00126ECD /* ViewController */,
-				B73795EA1E63DC2A00126ECD /* ViewModel */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		B73795D71E63DC2A00126ECD /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				B73795D81E63DC2A00126ECD /* Discover */,
-				B73795D91E63DC2A00126ECD /* Home */,
-				B73795DA1E63DC2A00126ECD /* Main */,
-				B73795DB1E63DC2A00126ECD /* Message */,
-				B73795DC1E63DC2A00126ECD /* Profile */,
+				B73795F31E64039900126ECD /* Discover */,
+				B73795F41E64039900126ECD /* Home */,
+				B73795F51E64039900126ECD /* Main */,
+				B73795F61E64039900126ECD /* Message */,
+				B73795F71E64039900126ECD /* Profile */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		B73795D81E63DC2A00126ECD /* Discover */ = {
+		B73795F31E64039900126ECD /* Discover */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Discover;
 			sourceTree = "<group>";
 		};
-		B73795D91E63DC2A00126ECD /* Home */ = {
+		B73795F41E64039900126ECD /* Home */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		B73795DA1E63DC2A00126ECD /* Main */ = {
+		B73795F51E64039900126ECD /* Main */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		B73795DB1E63DC2A00126ECD /* Message */ = {
+		B73795F61E64039900126ECD /* Message */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Message;
 			sourceTree = "<group>";
 		};
-		B73795DC1E63DC2A00126ECD /* Profile */ = {
+		B73795F71E64039900126ECD /* Profile */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		B73795DD1E63DC2A00126ECD /* Tools */ = {
+		B73795F81E64039900126ECD /* NetTool */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Tools;
+			path = NetTool;
 			sourceTree = "<group>";
 		};
-		B73795DE1E63DC2A00126ECD /* View */ = {
+		B73795F91E64039900126ECD /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				B73795DF1E63DC2A00126ECD /* Discover */,
-				B73795E01E63DC2A00126ECD /* Home */,
-				B73795E11E63DC2A00126ECD /* Main */,
-				B73795E21E63DC2A00126ECD /* Message */,
-				B73795E31E63DC2A00126ECD /* Profile */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B73795FA1E64039900126ECD /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		B73795FB1E64039900126ECD /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		B73795FC1E64039900126ECD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B73795FD1E64039900126ECD /* Discover */,
+				B73795FE1E64039900126ECD /* Home */,
+				B73795FF1E64039900126ECD /* Main */,
+				B73796001E64039900126ECD /* Message */,
+				B73796011E64039900126ECD /* Profile */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		B73795DF1E63DC2A00126ECD /* Discover */ = {
+		B73795FD1E64039900126ECD /* Discover */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Discover;
 			sourceTree = "<group>";
 		};
-		B73795E01E63DC2A00126ECD /* Home */ = {
+		B73795FE1E64039900126ECD /* Home */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		B73795E11E63DC2A00126ECD /* Main */ = {
+		B73795FF1E64039900126ECD /* Main */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		B73795E21E63DC2A00126ECD /* Message */ = {
+		B73796001E64039900126ECD /* Message */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Message;
 			sourceTree = "<group>";
 		};
-		B73795E31E63DC2A00126ECD /* Profile */ = {
+		B73796011E64039900126ECD /* Profile */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		B73795E41E63DC2A00126ECD /* ViewController */ = {
+		B73796021E64039900126ECD /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				B73795E51E63DC2A00126ECD /* Discover */,
-				B73795E61E63DC2A00126ECD /* Home */,
-				B73795E71E63DC2A00126ECD /* Main */,
-				B73795E81E63DC2A00126ECD /* Message */,
-				B73795E91E63DC2A00126ECD /* Profile */,
+				B73796031E64039900126ECD /* Discover */,
+				B73796041E64039900126ECD /* Home */,
+				B73796051E64039900126ECD /* Main */,
+				B73796071E64039900126ECD /* Message */,
+				B73796081E64039900126ECD /* Profile */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		B73795E51E63DC2A00126ECD /* Discover */ = {
+		B73796031E64039900126ECD /* Discover */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Discover;
 			sourceTree = "<group>";
 		};
-		B73795E61E63DC2A00126ECD /* Home */ = {
+		B73796041E64039900126ECD /* Home */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		B73795E71E63DC2A00126ECD /* Main */ = {
+		B73796051E64039900126ECD /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				B73795F01E63DD1400126ECD /* MainViewController.swift */,
+				B73796061E64039900126ECD /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		B73795E81E63DC2A00126ECD /* Message */ = {
+		B73796071E64039900126ECD /* Message */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Message;
 			sourceTree = "<group>";
 		};
-		B73795E91E63DC2A00126ECD /* Profile */ = {
+		B73796081E64039900126ECD /* Profile */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		B73795EA1E63DC2A00126ECD /* ViewModel */ = {
+		B73796091E64039900126ECD /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				B73795EB1E63DC2A00126ECD /* Discover */,
-				B73795EC1E63DC2A00126ECD /* Home */,
-				B73795ED1E63DC2A00126ECD /* Main */,
-				B73795EE1E63DC2A00126ECD /* Message */,
-				B73795EF1E63DC2A00126ECD /* Profile */,
+				B737960A1E64039900126ECD /* Discover */,
+				B737960B1E64039900126ECD /* Home */,
+				B737960C1E64039900126ECD /* Main */,
+				B737960D1E64039900126ECD /* Message */,
+				B737960E1E64039900126ECD /* Profile */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		B73795EB1E63DC2A00126ECD /* Discover */ = {
+		B737960A1E64039900126ECD /* Discover */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Discover;
 			sourceTree = "<group>";
 		};
-		B73795EC1E63DC2A00126ECD /* Home */ = {
+		B737960B1E64039900126ECD /* Home */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		B73795ED1E63DC2A00126ECD /* Main */ = {
+		B737960C1E64039900126ECD /* Main */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		B73795EE1E63DC2A00126ECD /* Message */ = {
+		B737960D1E64039900126ECD /* Message */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Message;
 			sourceTree = "<group>";
 		};
-		B73795EF1E63DC2A00126ECD /* Profile */ = {
+		B737960E1E64039900126ECD /* Profile */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		B73796101E64039F00126ECD /* Define */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Define;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -463,7 +487,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B73795A91E63BC3F00126ECD /* AppDelegate.swift in Sources */,
-				B73795F11E63DD1400126ECD /* MainViewController.swift in Sources */,
+				B737960F1E64039900126ECD /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
