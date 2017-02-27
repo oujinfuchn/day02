@@ -13,6 +13,11 @@
 		B73795C91E63BC4000126ECD /* Swift_day02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73795C81E63BC4000126ECD /* Swift_day02UITests.swift */; };
 		B737960F1E64039900126ECD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73796061E64039900126ECD /* MainViewController.swift */; };
 		B73796121E6404C700126ECD /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73796111E6404C700126ECD /* NavigationController.swift */; };
+		B73796141E64051900126ECD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73796131E64051900126ECD /* BaseViewController.swift */; };
+		B73796161E64056700126ECD /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73796151E64056700126ECD /* DiscoverViewController.swift */; };
+		B73796181E64056F00126ECD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73796171E64056F00126ECD /* HomeViewController.swift */; };
+		B737961A1E64057C00126ECD /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73796191E64057C00126ECD /* MessageViewController.swift */; };
+		B737961C1E64058700126ECD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B737961B1E64058700126ECD /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		B73795CA1E63BC4000126ECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B73796061E64039900126ECD /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B73796111E6404C700126ECD /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		B73796131E64051900126ECD /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		B73796151E64056700126ECD /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		B73796171E64056F00126ECD /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B73796191E64057C00126ECD /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		B737961B1E64058700126ECD /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,6 +276,7 @@
 		B73796031E64039900126ECD /* Discover */ = {
 			isa = PBXGroup;
 			children = (
+				B73796151E64056700126ECD /* DiscoverViewController.swift */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -273,6 +284,7 @@
 		B73796041E64039900126ECD /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				B73796171E64056F00126ECD /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -282,6 +294,7 @@
 			children = (
 				B73796061E64039900126ECD /* MainViewController.swift */,
 				B73796111E6404C700126ECD /* NavigationController.swift */,
+				B73796131E64051900126ECD /* BaseViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -289,6 +302,7 @@
 		B73796071E64039900126ECD /* Message */ = {
 			isa = PBXGroup;
 			children = (
+				B73796191E64057C00126ECD /* MessageViewController.swift */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -296,6 +310,7 @@
 		B73796081E64039900126ECD /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				B737961B1E64058700126ECD /* ProfileViewController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -490,8 +505,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B73795A91E63BC3F00126ECD /* AppDelegate.swift in Sources */,
+				B73796141E64051900126ECD /* BaseViewController.swift in Sources */,
 				B73796121E6404C700126ECD /* NavigationController.swift in Sources */,
 				B737960F1E64039900126ECD /* MainViewController.swift in Sources */,
+				B73796161E64056700126ECD /* DiscoverViewController.swift in Sources */,
+				B73796181E64056F00126ECD /* HomeViewController.swift in Sources */,
+				B737961C1E64058700126ECD /* ProfileViewController.swift in Sources */,
+				B737961A1E64057C00126ECD /* MessageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
